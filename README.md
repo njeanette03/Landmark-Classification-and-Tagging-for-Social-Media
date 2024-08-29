@@ -21,3 +21,57 @@ A CNN is created to Classify Landmarks (using Transfer Learning) - Different pre
 
 ### Step 3
 The algorithm is deployed in an app - Finally, using the best model to create a simple app for others to be able to use your model to find the most likely landmarks depicted in an image. 
+
+## Dataset Info
+
+The landmark images are a subset of the Google Landmarks Dataset v2.
+
+## File Contents<a name="file_contents"></a> ##
+* `src\` : Directory for the APIs for the learning models
+
+* `static_images\` : Image directory
+
+* `app_files` : Static image files for `app.html` snapshot
+
+* `app.html` `app.ipynb` : Jupyter notebook (and HTML) for web app frontend
+
+* `cnn_from_scratch.*` : Jupyter notebook (and HTML) for demonstration of training on *CNN from scratch*
+
+* `transfer_learning.*` : Jupyter notebook (and HTML) for demonstration of training on *transfer learning*
+
+
+## Getting Started
+
+1. **Open a terminal and clone the repository, then navigate to the downloaded folder:**
+	
+	```	
+		git clone https://github.com/njeanette03/Landmark-Classification-and-Tagging-for-Social-Media.git
+		cd Landmark-Classification-Tagging-for-Social-Media
+
+2. **Navigate to the repo Directory:**
+   Open a terminal and navigate to the directory where you installed the starter kit.
+
+3. **Download and Install Miniconda:**
+   Follow the [Miniconda installation instructions](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) relevant to your operating system.
+
+4. **Create a New Conda Environment and Activate the Environment:**
+ 
+    ```
+        conda create --name Landmark-Classification -y python=3.7.6
+        conda activate Landmark-Classification
+    ```
+
+   **Note:** You will need to activate your environment every time you open a new terminal.
+
+5. **Install Required Packages:**
+
+     ```
+     pip install -r requirements.txt
+     ```
+
+6. **Install and Open Jupyter Lab:**
+
+     ```
+     pip install jupyterlab
+     jupyter lab
+     ```
